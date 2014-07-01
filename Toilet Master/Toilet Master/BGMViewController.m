@@ -140,7 +140,7 @@
 			case 1:// men
 			if (beacon.accuracy < 0.5)
 			{
-				// send enter request with uuid of the user
+				// send enter request
 				NSURL* url = [NSURL URLWithString:@"http://192.168.14.29:8888/toilet/men/enter.php"];
 				NSURLRequest *request = [[NSURLRequest alloc]initWithURL:url];
 				[NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
@@ -148,7 +148,7 @@
 			}
 			else
 			{
-				// if server's uuid is equal to user's uuid, send exit request
+				// if has entered the region, send exit request
 				if (self.isUsingMenToilet)
 				{
 					NSURL* url = [NSURL URLWithString:@"http://192.168.14.29:8888/toilet/men/exit.php"];
@@ -162,7 +162,7 @@
 			case 2:// women
 			if (beacon.accuracy < 0.5)
 			{
-				// send enter request with uuid of the user
+				// send enter request
 				NSURL* url = [NSURL URLWithString:@"http://192.168.14.29:8888/toilet/women/enter.php"];
 				NSURLRequest *request = [[NSURLRequest alloc]initWithURL:url];
 				[NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
@@ -170,7 +170,7 @@
 			}
 			else
 			{
-				// if server's uuid is equal to user's uuid, send exit request
+				// if has entered the region, send exit request
 				if (self.isUsingWomenToilet)
 				{
 					NSURL* url = [NSURL URLWithString:@"http://192.168.14.29:8888/toilet/women/exit.php"];
