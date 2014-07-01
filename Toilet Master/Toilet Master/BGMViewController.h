@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BGMViewController : UIViewController
+#import <CoreLocation/CoreLocation.h>
+
+@interface BGMViewController : UIViewController<CLLocationManagerDelegate>
 
 @end

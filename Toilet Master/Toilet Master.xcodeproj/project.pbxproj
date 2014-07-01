@@ -21,6 +21,7 @@
 		FCBDA0711962463700E3DAF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA0531962463700E3DAF5 /* UIKit.framework */; };
 		FCBDA0791962463700E3DAF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCBDA0771962463700E3DAF5 /* InfoPlist.strings */; };
 		FCBDA07B1962463700E3DAF5 /* Toilet_MasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA07A1962463700E3DAF5 /* Toilet_MasterTests.m */; };
+		FCBDA0851962617000E3DAF5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA0841962617000E3DAF5 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		FCBDA0761962463700E3DAF5 /* Toilet MasterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Toilet MasterTests-Info.plist"; sourceTree = "<group>"; };
 		FCBDA0781962463700E3DAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCBDA07A1962463700E3DAF5 /* Toilet_MasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Toilet_MasterTests.m; sourceTree = "<group>"; };
+		FCBDA0841962617000E3DAF5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCBDA0851962617000E3DAF5 /* CoreLocation.framework in Frameworks */,
 				FCBDA0521962463700E3DAF5 /* CoreGraphics.framework in Frameworks */,
 				FCBDA0541962463700E3DAF5 /* UIKit.framework in Frameworks */,
 				FCBDA0501962463700E3DAF5 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		FCBDA04E1962463700E3DAF5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FCBDA0841962617000E3DAF5 /* CoreLocation.framework */,
 				FCBDA04F1962463700E3DAF5 /* Foundation.framework */,
 				FCBDA0511962463700E3DAF5 /* CoreGraphics.framework */,
 				FCBDA0531962463700E3DAF5 /* UIKit.framework */,
