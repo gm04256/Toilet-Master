@@ -61,6 +61,10 @@
                             <constraint firstItem="fkz-CY-exH" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="y4W-P9-aUX"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="menLabel" destination="2LU-5u-CXa" id="mV4-GK-cxK"/>
+                        <outlet property="womenLabel" destination="YGs-72-Dq9" id="gYH-tW-yxh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
