@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5023" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="BGMViewController" sceneMemberID="viewController">
@@ -15,7 +15,51 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Toilet Master" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fkz-CY-exH">
+                                <rect key="frame" x="76" y="40" width="168" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="t0Q-cN-FeG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Men" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2LU-5u-CXa">
+                                <rect key="frame" x="56" y="151" width="208" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.25890617630000001" green="1" blue="0.27622596599999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="zU9-w3-hgl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Women" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGs-72-Dq9">
+                                <rect key="frame" x="56" y="241" width="208" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.25890617630000001" green="1" blue="0.27622596599999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="bjN-dg-ilm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YGs-72-Dq9" firstAttribute="top" secondItem="2LU-5u-CXa" secondAttribute="bottom" constant="40" id="2vM-4l-h6X"/>
+                            <constraint firstAttribute="trailing" secondItem="2LU-5u-CXa" secondAttribute="trailing" constant="56" id="78h-md-oqS"/>
+                            <constraint firstItem="2LU-5u-CXa" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="56" id="GIJ-RI-5N4"/>
+                            <constraint firstItem="YGs-72-Dq9" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="56" id="Izd-gr-9bp"/>
+                            <constraint firstAttribute="trailing" secondItem="YGs-72-Dq9" secondAttribute="trailing" constant="56" id="JA7-R3-B1L"/>
+                            <constraint firstItem="2LU-5u-CXa" firstAttribute="top" secondItem="fkz-CY-exH" secondAttribute="bottom" constant="75" id="Scd-9H-IHX"/>
+                            <constraint firstItem="2LU-5u-CXa" firstAttribute="centerX" secondItem="YGs-72-Dq9" secondAttribute="centerX" id="cWt-CX-4j8"/>
+                            <constraint firstItem="fkz-CY-exH" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="76" id="m98-xf-64n"/>
+                            <constraint firstAttribute="trailing" secondItem="fkz-CY-exH" secondAttribute="trailing" constant="76" id="w3A-Z2-kWM"/>
+                            <constraint firstItem="fkz-CY-exH" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="y4W-P9-aUX"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
