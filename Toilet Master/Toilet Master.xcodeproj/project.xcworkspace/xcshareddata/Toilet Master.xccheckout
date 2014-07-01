@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>54A9B225-093C-453A-B53C-603CEF09A1E3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Toilet Master</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E7768C16-D226-4D90-AB0D-1605831D3F90</key>
+		<string>https://github.com/gm04256/Toilet-Master.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Toilet Master/Toilet Master.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E7768C16-D226-4D90-AB0D-1605831D3F90</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gm04256/Toilet-Master.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E7768C16-D226-4D90-AB0D-1605831D3F90</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E7768C16-D226-4D90-AB0D-1605831D3F90</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Toilet Master</string>
+		</dict>
+	</array>
+</dict>
+</plist>

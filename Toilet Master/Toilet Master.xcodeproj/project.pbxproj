@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCBDA0501962463700E3DAF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA04F1962463700E3DAF5 /* Foundation.framework */; };
+		FCBDA0521962463700E3DAF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA0511962463700E3DAF5 /* CoreGraphics.framework */; };
+		FCBDA0541962463700E3DAF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA0531962463700E3DAF5 /* UIKit.framework */; };
+		FCBDA05A1962463700E3DAF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCBDA0581962463700E3DAF5 /* InfoPlist.strings */; };
+		FCBDA05C1962463700E3DAF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA05B1962463700E3DAF5 /* main.m */; };
+		FCBDA0601962463700E3DAF5 /* BGMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA05F1962463700E3DAF5 /* BGMAppDelegate.m */; };
+		FCBDA0631962463700E3DAF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCBDA0611962463700E3DAF5 /* Main.storyboard */; };
+		FCBDA0661962463700E3DAF5 /* BGMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA0651962463700E3DAF5 /* BGMViewController.m */; };
+		FCBDA0681962463700E3DAF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCBDA0671962463700E3DAF5 /* Images.xcassets */; };
+		FCBDA06F1962463700E3DAF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA06E1962463700E3DAF5 /* XCTest.framework */; };
+		FCBDA0701962463700E3DAF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA04F1962463700E3DAF5 /* Foundation.framework */; };
+		FCBDA0711962463700E3DAF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDA0531962463700E3DAF5 /* UIKit.framework */; };
+		FCBDA0791962463700E3DAF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCBDA0771962463700E3DAF5 /* InfoPlist.strings */; };
+		FCBDA07B1962463700E3DAF5 /* Toilet_MasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDA07A1962463700E3DAF5 /* Toilet_MasterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCBDA0721962463700E3DAF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCBDA0441962463600E3DAF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCBDA04B1962463700E3DAF5;
+			remoteInfo = "Toilet Master";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCBDA04C1962463700E3DAF5 /* Toilet Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toilet Master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBDA04F1962463700E3DAF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCBDA0511962463700E3DAF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCBDA0531962463700E3DAF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCBDA0571962463700E3DAF5 /* Toilet Master-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Toilet Master-Info.plist"; sourceTree = "<group>"; };
+		FCBDA0591962463700E3DAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCBDA05B1962463700E3DAF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCBDA05D1962463700E3DAF5 /* Toilet Master-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Toilet Master-Prefix.pch"; sourceTree = "<group>"; };
+		FCBDA05E1962463700E3DAF5 /* BGMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMAppDelegate.h; sourceTree = "<group>"; };
+		FCBDA05F1962463700E3DAF5 /* BGMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGMAppDelegate.m; sourceTree = "<group>"; };
+		FCBDA0621962463700E3DAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCBDA0641962463700E3DAF5 /* BGMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMViewController.h; sourceTree = "<group>"; };
+		FCBDA0651962463700E3DAF5 /* BGMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGMViewController.m; sourceTree = "<group>"; };
+		FCBDA0671962463700E3DAF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FCBDA06D1962463700E3DAF5 /* Toilet MasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Toilet MasterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBDA06E1962463700E3DAF5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FCBDA0761962463700E3DAF5 /* Toilet MasterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Toilet MasterTests-Info.plist"; sourceTree = "<group>"; };
+		FCBDA0781962463700E3DAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCBDA07A1962463700E3DAF5 /* Toilet_MasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Toilet_MasterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCBDA0491962463700E3DAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBDA0521962463700E3DAF5 /* CoreGraphics.framework in Frameworks */,
+				FCBDA0541962463700E3DAF5 /* UIKit.framework in Frameworks */,
+				FCBDA0501962463700E3DAF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBDA06A1962463700E3DAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBDA06F1962463700E3DAF5 /* XCTest.framework in Frameworks */,
+				FCBDA0711962463700E3DAF5 /* UIKit.framework in Frameworks */,
+				FCBDA0701962463700E3DAF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCBDA0431962463600E3DAF5 = {
+			isa = PBXGroup;
+			children = (
+				FCBDA0551962463700E3DAF5 /* Toilet Master */,
+				FCBDA0741962463700E3DAF5 /* Toilet MasterTests */,
+				FCBDA04E1962463700E3DAF5 /* Frameworks */,
+				FCBDA04D1962463700E3DAF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCBDA04D1962463700E3DAF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDA04C1962463700E3DAF5 /* Toilet Master.app */,
+				FCBDA06D1962463700E3DAF5 /* Toilet MasterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCBDA04E1962463700E3DAF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDA04F1962463700E3DAF5 /* Foundation.framework */,
+				FCBDA0511962463700E3DAF5 /* CoreGraphics.framework */,
+				FCBDA0531962463700E3DAF5 /* UIKit.framework */,
+				FCBDA06E1962463700E3DAF5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCBDA0551962463700E3DAF5 /* Toilet Master */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDA05E1962463700E3DAF5 /* BGMAppDelegate.h */,
+				FCBDA05F1962463700E3DAF5 /* BGMAppDelegate.m */,
+				FCBDA0611962463700E3DAF5 /* Main.storyboard */,
+				FCBDA0641962463700E3DAF5 /* BGMViewController.h */,
+				FCBDA0651962463700E3DAF5 /* BGMViewController.m */,
+				FCBDA0671962463700E3DAF5 /* Images.xcassets */,
+				FCBDA0561962463700E3DAF5 /* Supporting Files */,
+			);
+			path = "Toilet Master";
+			sourceTree = "<group>";
+		};
+		FCBDA0561962463700E3DAF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDA0571962463700E3DAF5 /* Toilet Master-Info.plist */,
+				FCBDA0581962463700E3DAF5 /* InfoPlist.strings */,
+				FCBDA05B1962463700E3DAF5 /* main.m */,
+				FCBDA05D1962463700E3DAF5 /* Toilet Master-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCBDA0741962463700E3DAF5 /* Toilet MasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDA07A1962463700E3DAF5 /* Toilet_MasterTests.m */,
+				FCBDA0751962463700E3DAF5 /* Supporting Files */,
+			);
+			path = "Toilet MasterTests";
+			sourceTree = "<group>";
+		};
+		FCBDA0751962463700E3DAF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDA0761962463700E3DAF5 /* Toilet MasterTests-Info.plist */,
+				FCBDA0771962463700E3DAF5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCBDA04B1962463700E3DAF5 /* Toilet Master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBDA07E1962463700E3DAF5 /* Build configuration list for PBXNativeTarget "Toilet Master" */;
+			buildPhases = (
+				FCBDA0481962463700E3DAF5 /* Sources */,
+				FCBDA0491962463700E3DAF5 /* Frameworks */,
+				FCBDA04A1962463700E3DAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toilet Master";
+			productName = "Toilet Master";
+			productReference = FCBDA04C1962463700E3DAF5 /* Toilet Master.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCBDA06C1962463700E3DAF5 /* Toilet MasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBDA0811962463700E3DAF5 /* Build configuration list for PBXNativeTarget "Toilet MasterTests" */;
+			buildPhases = (
+				FCBDA0691962463700E3DAF5 /* Sources */,
+				FCBDA06A1962463700E3DAF5 /* Frameworks */,
+				FCBDA06B1962463700E3DAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCBDA0731962463700E3DAF5 /* PBXTargetDependency */,
+			);
+			name = "Toilet MasterTests";
+			productName = "Toilet MasterTests";
+			productReference = FCBDA06D1962463700E3DAF5 /* Toilet MasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCBDA0441962463600E3DAF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BGM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "馬 岩";
+				TargetAttributes = {
+					FCBDA06C1962463700E3DAF5 = {
+						TestTargetID = FCBDA04B1962463700E3DAF5;
+					};
+				};
+			};
+			buildConfigurationList = FCBDA0471962463600E3DAF5 /* Build configuration list for PBXProject "Toilet Master" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCBDA0431962463600E3DAF5;
+			productRefGroup = FCBDA04D1962463700E3DAF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCBDA04B1962463700E3DAF5 /* Toilet Master */,
+				FCBDA06C1962463700E3DAF5 /* Toilet MasterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCBDA04A1962463700E3DAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBDA0681962463700E3DAF5 /* Images.xcassets in Resources */,
+				FCBDA05A1962463700E3DAF5 /* InfoPlist.strings in Resources */,
+				FCBDA0631962463700E3DAF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBDA06B1962463700E3DAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBDA0791962463700E3DAF5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCBDA0481962463700E3DAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBDA05C1962463700E3DAF5 /* main.m in Sources */,
+				FCBDA0601962463700E3DAF5 /* BGMAppDelegate.m in Sources */,
+				FCBDA0661962463700E3DAF5 /* BGMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBDA0691962463700E3DAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBDA07B1962463700E3DAF5 /* Toilet_MasterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCBDA0731962463700E3DAF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCBDA04B1962463700E3DAF5 /* Toilet Master */;
+			targetProxy = FCBDA0721962463700E3DAF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCBDA0581962463700E3DAF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCBDA0591962463700E3DAF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCBDA0611962463700E3DAF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCBDA0621962463700E3DAF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCBDA0771962463700E3DAF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCBDA0781962463700E3DAF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCBDA07C1962463700E3DAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCBDA07D1962463700E3DAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCBDA07F1962463700E3DAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Toilet Master/Toilet Master-Prefix.pch";
+				INFOPLIST_FILE = "Toilet Master/Toilet Master-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FCBDA0801962463700E3DAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Toilet Master/Toilet Master-Prefix.pch";
+				INFOPLIST_FILE = "Toilet Master/Toilet Master-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FCBDA0821962463700E3DAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Toilet Master.app/Toilet Master";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Toilet Master/Toilet Master-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Toilet MasterTests/Toilet MasterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FCBDA0831962463700E3DAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Toilet Master.app/Toilet Master";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Toilet Master/Toilet Master-Prefix.pch";
+				INFOPLIST_FILE = "Toilet MasterTests/Toilet MasterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCBDA0471962463600E3DAF5 /* Build configuration list for PBXProject "Toilet Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBDA07C1962463700E3DAF5 /* Debug */,
+				FCBDA07D1962463700E3DAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCBDA07E1962463700E3DAF5 /* Build configuration list for PBXNativeTarget "Toilet Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBDA07F1962463700E3DAF5 /* Debug */,
+				FCBDA0801962463700E3DAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCBDA0811962463700E3DAF5 /* Build configuration list for PBXNativeTarget "Toilet MasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBDA0821962463700E3DAF5 /* Debug */,
+				FCBDA0831962463700E3DAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCBDA0441962463600E3DAF5 /* Project object */;
+}
